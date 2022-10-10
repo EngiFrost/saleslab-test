@@ -1,7 +1,7 @@
 .analytics {
   display: flex;
   flex-direction: column;
-  gap: 16px; /* FIXME: check it*/
+  gap: 16px;
   width: 1225px;
   min-width: 1225px;
   padding: 40px 0;

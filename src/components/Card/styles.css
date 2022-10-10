@@ -26,11 +26,6 @@
   border-radius: 12px;
 }
 
-/* FIXME: do we need this? */
-.imgWrapper img {
-  color: white;
-}
-
 .title {
   font-weight: 700;
   font-size: 18px;

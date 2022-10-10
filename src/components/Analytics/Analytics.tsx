@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { Card } from '../Card/Card';
 import { TCard } from '../Card/entity';
+import { DateFilter } from '../DateFilter/DateFilter';
 import './styles.css';
 
 export const Analytics: FC = () => {
@@ -60,7 +61,11 @@ export const Analytics: FC = () => {
 
   return (
     <div className="analytics">
-      <div className="header"></div>
+      <div className="header">
+      <div>TODO: DROPDOWN!</div>
+      <DateFilter />
+      </div>
+
       <div className="cards">
         {cards.map((card) => (
           <Card card={card} />
