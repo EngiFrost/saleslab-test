@@ -1,5 +1,6 @@
 .card {
   display: flex;
+  align-items: center;
   gap: 16px;
   width: 294px;
   height: 90px;
@@ -16,6 +17,9 @@
 }
 
 .imgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 58px;
   height: 58px;
   border: 1px solid rgba(0, 0, 0, 0.15);
