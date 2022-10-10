@@ -1,0 +1,19 @@
+.analytics {
+  width: 1225px;
+  padding: 40px 70px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown {}
+
+.filters {}
+
+.cards {
+  display: flex;
+  gap: 16px;
+}

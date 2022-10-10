@@ -22,9 +22,13 @@ export const Card: FC<CardProps> = ({ card }) => {
         <div className="info">
           {amount}
           {money && ' | '}
-          {money && <span className="money">{money}</span>}
+          {money && <span className="money">{formatMoney(money)}</span>}
         </div>
       </div>
     </div>
   );
 };
+
+const formatMoney = (value: number): string => {
+  return value.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1 ')
+}
