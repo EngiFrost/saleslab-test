@@ -1,9 +1,9 @@
 import { FC, useState } from 'react';
-import { Filter } from './entity';
+import { TFilter } from './entity';
 import './styles.css'
 
 export const DateFilter: FC = () => {
-  const filters: Filter[] = [
+  const filters: TFilter[] = [
     { label: 'Month', value: 'month' },
     { label: 'Week', value: 'week' },
     { label: 'Yesterday', value: 'yesterday' },

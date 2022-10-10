@@ -1,4 +1,4 @@
-export type TFilter = {
+export type TItem= {
   label: string,
   value: string
 }
