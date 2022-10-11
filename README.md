@@ -1,1 +1,5 @@
-### `yarn start`
+# Quick launch
+```
+yarn
+yarn start
+```

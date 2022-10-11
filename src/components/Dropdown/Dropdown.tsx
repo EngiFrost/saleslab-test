@@ -21,6 +21,7 @@ export const Dropdown: FC = () => {
 
   const handleItemChange = (value: string) => {
     setActiveItem(value);
+    setHidden(true)
   };
 
   return (
